@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirect</title>
+    <script>
+      var path = window.location.pathname;
+      var base = '/demo-devis-un';
+      if (path.startsWith(base)) {
+        window.location.replace(base + '/');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
